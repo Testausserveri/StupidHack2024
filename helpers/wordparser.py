@@ -39,10 +39,10 @@ def output():
 
     with open("myfirstaimodel/backend.py", "w") as f:
         f.write("def aimodel(input):\n")
-        f.write("    if input == 'hello':\n        return 'hi'")
+        f.write("    if input == 'hello':\n        return 'hi'\n")
         for phrase in phrases:
-            f.write(f"    elif input == '{phrase[0]}':\n        return '{phrase[1]}'")
+            f.write(f"    elif input == '{phrase[0]}':\n        return '{phrase[1]}'\n")
 
 
 if __name__=="__main__":
-    main()
+    output()
