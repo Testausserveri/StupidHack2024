@@ -2,6 +2,8 @@ from flask import (
     Blueprint, request, render_template
 )
 
+from . import backend
+
 bp = Blueprint("endpoints", __name__, url_prefix="/", template_folder="templates")
 
 
@@ -12,7 +14,10 @@ def index():
 
 @bp.route("/submit", methods=("POST",))
 def submit():
-    print(f"data: {request.values}")
-    decoded = request.get_json()
+    input1 = request.form.get("input1")
+    input2 = request.form.get("input2")
+    input3 = request.form.get("input3")
+    input4 = request.form.get("input4")
 
-    return f"data:{request.values['data']}"
+    response = backend.aimodel(input1, input2, input3, input4)
+    return response, 200
