@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    image: myfirstaimodel:v1337
+    ports:
+      - "10101:10101"
