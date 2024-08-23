@@ -10,7 +10,7 @@ def create_app(testing: bool = False) -> Flask:
         SECRET_KEY="balls",
     )
 
-    from . import endpoints  # pylint: disable=import-outside-toplevel
+    from . import endpoints
     app.register_blueprint(endpoints.bp)
 
     return app
