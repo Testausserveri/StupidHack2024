@@ -1,92 +1,274 @@
-What is your hobby
-Describe your favorite place
-Tell me your dream
-Share your best experience
-Explain your recent project
-Describe your ideal job
-Tell me a secret
-What inspires you daily
-Describe your favorite movie
-Share a recent accomplishment
-Create a funny joke
-Suggest a quirky activity
-Write a silly poem
-Tell me a riddle
-Describe a weird creature
-Give a playful challenge
-Suggest a fun game
-Share an odd fact
-Make up a story
-Create a fictional character
-Describe a magical place
-Invent a silly name
-Share a goofy joke
-Suggest a wild adventure
-Tell a humorous tale
-Describe a funny event
-Make up a legend
-Invent a strange creature
-Give a quirky idea
-Share a playful anecdote
-Describe a thrilling game
-Explain a key technique
-Share a sports memory
-Tell me about soccer
-Describe your favorite team
-Suggest a training routine
-Explain a recent match
-Share a sports highlight
-Tell me about tennis
-Describe a memorable goal
-Explain a game strategy
-Share a workout tip
-Tell me about baseball
-Describe a sports rivalry
-Suggest a fitness challenge
-Explain a sports rule
-Share an athlete's achievement
-Tell me about basketball
-Describe a favorite sport
-Explain a famous play
-Suggest a sports documentary
-Describe a classic film
-Share a favorite director
-Tell me about plot twists
-Explain a memorable scene
-Suggest a must-watch movie
-Describe a recent release
-Share a favorite genre
-Tell me about characters
-Explain a famous quote
-Suggest a movie marathon
-Describe a film soundtrack
-Share an iconic actor
-Tell me about cinematography
-Explain a gripping storyline
-Suggest a hidden gem
-Describe a film ending
-Share a favorite film
-Tell me about special effects
-Explain a movie theme
-Suggest a documentary film
-Describe a movie adaptation
-Explain a basic loop
-Describe a function call
-Share a common bug
-Tell me about recursion
-Explain variable scope rules
-Describe a data type
-Share a coding challenge
-Tell me about algorithms
-Explain how to debug
-Describe a syntax error
-Share a useful library
-Tell me about APIs
-Explain a for loop
-Describe an array usage
-Share a coding practice
-Tell me about classes
-Explain code commenting best practices
-Describe an object-oriented concept
-Share a common programming pattern
-Tell me about version control
+What is your hobby?
+Describe your favorite place.
+Tell me your dream.
+Share your best experience.
+Explain your recent project.
+Describe your ideal job.
+Tell me a secret.
+What inspires you daily?
+Describe your favorite movie.
+Share a recent accomplishment.
+Create a funny joke.
+Suggest a quirky activity.
+Write a silly poem.
+Tell me a riddle.
+Describe a weird creature.
+Give a playful challenge.
+Suggest a fun game.
+Share an odd fact.
+Make up a story.
+Create a fictional character.
+Describe a magical place.
+Invent a silly name.
+Share a goofy joke.
+Suggest a wild adventure.
+Tell a humorous tale.
+Describe a funny event.
+Make up a legend.
+Invent a strange creature.
+Give a quirky idea.
+Share a playful anecdote.
+Describe a thrilling game.
+Explain a key technique.
+Share a sports memory.
+Tell me about soccer.
+Describe your favorite team.
+Suggest a training routine.
+Explain a recent match.
+Share a sports highlight.
+Tell me about tennis.
+Describe a memorable goal.
+Explain a game strategy.
+Share a workout tip.
+Tell me about baseball.
+Describe a sports rivalry.
+Suggest a fitness challenge.
+Explain a sports rule.
+Share an athlete's achievement.
+Tell me about basketball.
+Describe a favorite sport.
+Explain a famous play.
+Suggest a sports documentary.
+Describe a classic film.
+Share a favorite director.
+Tell me about plot twists.
+Explain a memorable scene.
+Suggest a must-watch movie.
+Describe a recent release.
+Share a favorite genre.
+Tell me about characters.
+Explain a famous quote.
+Suggest a movie marathon.
+Describe a film soundtrack.
+Share an iconic actor.
+Tell me about cinematography.
+Explain a gripping storyline.
+Suggest a hidden gem.
+Describe a film ending.
+Share a favorite film.
+Tell me about special effects.
+Explain a movie theme.
+Suggest a documentary film.
+Describe a movie adaptation.
+Explain a basic loop.
+Describe a function call.
+Share a common bug.
+Tell me about recursion.
+Explain variable scope rules.
+Describe a data type.
+Share a coding challenge.
+Tell me about algorithms.
+Explain how to debug.
+Describe a syntax error.
+Share a useful library.
+Tell me about APIs.
+Explain a for loop.
+Describe an array usage.
+Share a coding practice.
+Tell me about classes.
+Explain code commenting best practices.
+Describe an object-oriented concept.
+Share a common programming pattern.
+Tell me about version control.
+Describe a classic cartoon.
+Share a favorite character.
+Tell me about animation.
+Explain a memorable episode.
+Suggest a funny cartoon.
+Describe a cartoon plot.
+Share a cartoon theme.
+Tell me about voice actors.
+Explain a cartoon style.
+Describe a favorite show.
+Share an iconic scene.
+Tell me about cartoons.
+Explain a character’s backstory.
+Describe a cartoon series.
+Share a cartoon recommendation.
+Tell me about animation history.
+Explain a recurring gag.
+Describe a cartoon character.
+Share a cartoon milestone.
+Tell me about comic strips.
+Describe a historical event.
+Explain a famous leader.
+Share a historical milestone.
+Tell me about empires.
+Describe a key battle.
+Explain a historical document.
+Share a significant invention.
+Tell me about revolutions.
+Describe an ancient civilization.
+Explain a cultural shift.
+Share a historical figure.
+Tell me about wars.
+Describe a pivotal moment.
+Explain a historic treaty.
+Share a historical landmark.
+Tell me about explorers.
+Describe a major discovery.
+Explain a historical era.
+Share a famous speech.
+Tell me about treaties.
+Describe future technological advancements.
+Explain upcoming scientific discoveries.
+Share a vision of innovation.
+Tell me about future cities.
+Describe next-generation transportation methods.
+Explain future space exploration.
+Share a potential breakthrough.
+Tell me about future trends.
+Describe emerging technologies' impact.
+Explain future environmental changes.
+Share a future prediction.
+Tell me about future careers.
+Describe future energy sources.
+Explain anticipated scientific progress.
+Share a futuristic invention idea.
+Tell me about space colonization.
+Describe future healthcare developments.
+Explain future educational methods.
+Share a vision for sustainability.
+Tell me about artificial intelligence.
+Describe today’s weather forecast.
+Share today’s top news.
+Tell me about events.
+Explain today’s trending topics.
+Describe a current trend.
+Share today’s popular meme.
+Tell me about current issues.
+Explain today’s stock market.
+Describe today’s social media.
+Share today’s interesting fact.
+Tell me about recent developments.
+Explain today’s global events.
+Describe a current challenge.
+Share today’s most read.
+Tell me about recent achievements.
+Explain today’s technological updates.
+Describe a recent trend.
+Share today’s cultural happenings.
+Tell me about current projects.
+Explain today’s important announcements.
+Describe Finland’s beautiful landscapes.
+Share Finnish cultural traditions.
+Tell me about Finnish cuisine.
+Explain Finland’s education system.
+Describe Helsinki’s main attractions.
+
+Share Finland’s unique festivals.
+Tell me about Finnish saunas.
+Explain Finland’s climate characteristics.
+Describe Finnish architectural styles.
+Share Finland’s famous inventions.
+Tell me about Finnish history.
+Explain Finland’s wildlife species.
+Describe a Finnish holiday.
+Share Finland’s language features.
+Tell me about Finnish sports.
+Explain Finland’s political system.
+Describe Finnish design influences.
+Share Finland’s top tourist spots.
+Tell me about Finnish mythology.
+Explain Finland’s environmental policies.
+Describe Finland’s beautiful landscapes.
+Share Finnish cultural traditions.
+Tell me about Finnish cuisine.
+Explain Finland’s education system.
+Describe Helsinki’s main attractions.
+Share Finland’s unique festivals.
+Tell me about Finnish saunas.
+Explain Finland’s climate characteristics.
+Describe Finnish architectural styles.
+Share Finland’s famous inventions.
+Tell me about Finnish history.
+Explain Finland’s wildlife species.
+Describe a Finnish holiday.
+Share Finland’s language features.
+Tell me about Finnish sports.
+Explain Finland’s political system.
+Describe Finnish design influences.
+Share Finland’s top tourist spots.
+Tell me about Finnish mythology.
+Explain Finland’s environmental policies.
+Describe a memorable goal.
+Explain key soccer strategies.
+Share a famous player.
+Tell me about soccer.
+Describe a thrilling match.
+Explain soccer position roles.
+Share a favorite team.
+Tell me about coaching techniques.
+Describe a historic tournament.
+Explain a game’s rules.
+Share soccer training tips.
+Tell me about famous clubs.
+Describe a soccer rivalry.
+Explain a critical penalty.
+Share a soccer achievement.
+Tell me about player transfers.
+Describe a soccer championship.
+Explain a tactical formation.
+Share a notable soccer match.
+Tell me about famous coaches.
+Describe a soccer fan.
+Describe a Skibidi dance.
+Explain Skibidi music style.
+Share a popular Skibidi meme.
+Tell me about Skibidi trends.
+Describe a Skibidi character.
+Explain Skibidi's cultural impact.
+Share Skibidi's viral moments.
+Tell me about Skibidi creators.
+Describe a Skibidi challenge.
+Explain Skibidi's online presence.
+Share a Skibidi remix.
+Tell me about Skibidi's origin.
+Describe Skibidi's fan reactions.
+Explain Skibidi's popularity reasons.
+Share Skibidi's musical influences.
+Tell me about Skibidi fashion.
+Describe a Skibidi performance.
+Explain Skibidi's dance moves.
+Share Skibidi's social media.
+Tell me about Skibidi events.
+Describe a basic theorem.
+Explain solving quadratic equations.
+Share a math formula.
+Tell me about algebra.
+Describe a geometric shape.
+Explain a calculus concept.
+Share a math challenge.
+Tell me about trigonometry.
+Describe a statistical method.
+Explain solving linear equations.
+Share a math trick.
+Tell me about fractions.
+Describe a probability problem.
+Share a math puzzle.
+Tell me about derivatives.
+Describe a math theorem.
+Explain prime numbers basics.
+Share a calculus application.
+Tell me about matrices.
+
