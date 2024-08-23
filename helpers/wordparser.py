@@ -2,16 +2,6 @@ import csv
 import json
 import requests
 
-def get_options():
-    # TODO
-    return [
-        ["what is", "tell me"],
-        ["the capital", "a story"],
-        ["of france", "about snails"],
-        ["balls", "aybabtu"],
-    ]
-
-
 def generate(prompt):
     req = requests.post('http://localhost:11434/api/generate',
                  json={"model":"dolphin-mixtral","prompt":prompt})

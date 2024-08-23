@@ -12,11 +12,6 @@ def index():
     return render_template("index.html"), 200
 
 
-@bp.route("/options", methods=("GET",))
-def options():
-    pass
-
-
 @bp.route("/correct", methods=("POST",))
 def correct():
     word = request.form.get("word")
