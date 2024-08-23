@@ -12,6 +12,11 @@ def index():
     return render_template("index.html"), 200
 
 
+@bp.route("/options", methods=("GET",))
+def options():
+    pass
+
+
 @bp.route("/submit", methods=("POST",))
 def submit():
     input1 = request.form.get("input1")
