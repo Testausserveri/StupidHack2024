@@ -1,5 +1,6 @@
 import json
 import requests
+import csv
 
 
 def generate(prompt):
@@ -23,12 +24,13 @@ def main():
         prompts = [x.strip() for x in f.readlines()]
 
     print(len(prompts))
-    answers = []
-    for prompt in prompts:
-        print(f"generating: {prompt}")
-        answers += generate(prompt)
-
-    return answers
+    with open("ai_out.csv", "w") as w:
+        for prompt in prompts:
+            print(f"generating: {prompt}")
+            answer = generate(prompt)
+            csv_writer = csv.writer(w)
+            csv_writer.writerow([prompt, answer])
+    return
 
 
 if __name__=="__main__":
