@@ -21,7 +21,7 @@ def correct():
 
 @bp.route("/submit", methods=("POST",))
 def submit():
-    input = request.form.get("input")
+    input = request.form.get("input").split() + [""]*10
 
     response = backend.aimodel(input)
     return response, 200

@@ -41,7 +41,9 @@ def output():
         f.write("def aimodel(input):\n")
         f.write("    if input == 'hello':\n        return 'hi'\n")
         for phrase in phrases:
-            f.write(f"    elif input == '{phrase[0]}':\n        return '{phrase[1]}'\n")
+            for i,word in enumerate(phrase[0].split()):
+                f.write(" "*4*(i+1) + f"if input[{i}] == '{word}':\n")
+            f.write(" "*4*(len(phrase[0].split())+1) + f"return '{phrase[1]}'\n")
 
 
 if __name__=="__main__":
