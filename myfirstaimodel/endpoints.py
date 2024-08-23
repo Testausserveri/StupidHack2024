@@ -2,6 +2,8 @@ from flask import (
     Blueprint, request, render_template
 )
 
+from myfirstaimodel.corrector import corrector
+
 from . import backend
 
 bp = Blueprint("endpoints", __name__, url_prefix="/", template_folder="templates")
@@ -16,7 +18,7 @@ def index():
 def correct():
     word = request.form.get("word")
 
-    return "kissa", 200
+    return corrector(word), 200
 
 
 @bp.route("/submit", methods=("POST",))
