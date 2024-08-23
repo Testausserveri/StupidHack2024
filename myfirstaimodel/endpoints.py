@@ -21,10 +21,7 @@ def correct():
 
 @bp.route("/submit", methods=("POST",))
 def submit():
-    input1 = request.form.get("input1")
-    input2 = request.form.get("input2")
-    input3 = request.form.get("input3")
-    input4 = request.form.get("input4")
+    input = request.form.get("input")
 
-    response = backend.aimodel(input1, input2, input3, input4)
+    response = backend.aimodel(input)
     return response, 200
