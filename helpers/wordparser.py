@@ -1,6 +1,6 @@
-import csv
 import json
 import requests
+
 
 def generate(prompt):
     req = requests.post('http://localhost:11434/api/generate',
@@ -17,29 +17,19 @@ def generate(prompt):
     print(ans)
     return ans
 
-def main():
-    words = []
-    with open("words.csv", "r") as f:
-        reader = csv.reader(f)
-        for row in reader:
-            for word in row:
-                if word != "" and word != "INTERROGATIVE" and word != "NOUN" and word != "VERB" and word != "ADJECTIVE":
-                    print(word)
-                    words.append(word)
 
-        i = 0
-        print(len(words))
-        for first_word in words:
-            for second_word in words:
-                for third_word in words:
-                    prompt = f"{first_word} {second_word} {third_word}"
-                    print(f"generating: {prompt}")
-                    generate(prompt)
-                    i += 1
-                    if i > 0:
-                        return
+def main():
+    with open("phrases.txt", "r") as f:
+        prompts = [x.strip() for x in f.readlines()]
+
+    print(len(prompts))
+    answers = []
+    for prompt in prompts:
+        print(f"generating: {prompt}")
+        answers += generate(prompt)
+
+    return answers
+
 
 if __name__=="__main__":
     main()
-
-
