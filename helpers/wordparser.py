@@ -39,7 +39,6 @@ def output():
 
     with open("myfirstaimodel/backend.py", "w") as f:
         f.write("def aimodel(input):\n")
-        f.write("    if input == 'hello':\n        return 'hi'\n")
         for phrase in phrases:
             for i,word in enumerate(phrase[0].split()):
                 f.write(" "*4*(i+1) + f"if input[{i}] == '{word}':\n")
