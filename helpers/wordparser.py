@@ -9,10 +9,10 @@ def generate(prompt):
     ans = ""
     for line in req.iter_lines():
         print(line)
-        line_obj = json.loads(str(line))
+        line_obj = json.loads(line)
         if line_obj['done'] == "true":
             break
-        ans.join(line_obj['response'])
+        ans += str(line_obj['response'])
 
     print(ans)
     return ans
@@ -36,8 +36,8 @@ def main():
                     print(f"generating: {prompt}")
                     generate(prompt)
                     i += 1
-                    if i > 50:
-                        break
+                    if i > 0:
+                        return
 
 if __name__=="__main__":
     main()
