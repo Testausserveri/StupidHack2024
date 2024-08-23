@@ -17,13 +17,6 @@ def options():
     pass
 
 
-@bp.route("/correct", methods=("POST",))
-def correct():
-    word = request.form.get("word")
-
-    return "kissa", 200
-
-
 @bp.route("/submit", methods=("POST",))
 def submit():
     input1 = request.form.get("input1")
