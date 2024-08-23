@@ -30,7 +30,18 @@ def main():
             answer = generate(prompt)
             csv_writer = csv.writer(w)
             csv_writer.writerow([prompt, answer])
-    return
+
+
+def output():
+    with open("ai_out.csv", "r") as f:
+        reader = csv.reader(f)
+        phrases = [(row[0], row[1]) for row in reader]
+
+    with open("myfirstaimodel/backend.py", "w") as f:
+        f.write("def aimodel(input):\n")
+        f.write("    if input == 'hello':\n        return 'hi'")
+        for phrase in phrases:
+            f.write(f"    elif input == '{phrase[0]}':\n        return '{phrase[1]}'")
 
 
 if __name__=="__main__":
