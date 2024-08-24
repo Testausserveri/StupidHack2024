@@ -48,7 +48,7 @@ def write_if(file, current_indentation, tree):
         if isinstance(answer, dict):
             write_if(file, current_indentation+1, answer)
         else:
-            file.write(" "*4*(current_indentation+1) + f"return {repr(answer)}\n")
+            file.write(" "*4*(current_indentation+1) + f"return {answer}\n")
 
 
 
