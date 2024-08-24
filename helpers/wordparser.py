@@ -44,7 +44,7 @@ def main():
 
 def write_if(file, current_indentation, tree):
     for word, answer in tree.items():
-        file.write(" "*4*current_indentation + f"if input[{current_indentation}] == {repr(word)}:\n")
+        file.write(" "*4*current_indentation + f"if input[{current_indentation-1}] == {repr(word)}:\n")
         if isinstance(answer, dict):
             write_if(file, current_indentation+1, answer)
         else:
@@ -65,12 +65,7 @@ def output():
         f.write("def aimodel(input):\n")
         write_if(f, 1, tree)
 
-
-        # for phrase in phrases:
-        #     for i,word in enumerate(phrase[0].split()):
-        #         f.write(" "*4*(i+1) + f"if input[{i}] == '{word}':\n")
-        #     f.write(" "*4*(len(phrase[0].split())+1) + f"return '{phrase[1]}'\n")
-
+        f.write("    return \"Invalid input\"\n")
 
 if __name__=="__main__":
     output()
