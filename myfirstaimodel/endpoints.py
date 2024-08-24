@@ -14,6 +14,11 @@ def index():
     return render_template("index.html"), 200
 
 
+@bp.route("/scribula.js", methods=("GET",))
+def scribula():
+    return render_template("scribula.js"), 200
+
+
 @bp.route("/correct", methods=("POST",))
 def correct():
     word = request.form.get("word")

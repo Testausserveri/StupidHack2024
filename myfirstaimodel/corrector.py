@@ -148,7 +148,7 @@ def corrector(text):
 
     # Check for exact match
     if text.strip().lower() in PHRASES.keys():
-        return PHRASES[text]
+        return PHRASES[text.lower().strip()]
     
     # Check for word by word match
     tree = WORD_TREES
@@ -156,7 +156,7 @@ def corrector(text):
     current, _, next = text.lower().partition(" ")
     corrected = matcher(prefix, current, next, tree)
 
-    return PHRASES[" ".join(corrected)]
+    return PHRASES[" ".join(corrected).lower()]
 
 
 # Ensure the corrector DB is initialized when module code loads
