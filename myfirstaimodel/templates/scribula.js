@@ -1,5 +1,5 @@
 const promptsu = document.getElementById('promptsu');
-const API_BASE = 'http://localhost:10101';
+const API_BASE = '';
 
 let correctionRunning = false;
 
