@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 FROM python:3.11
-WORKDIR /
+WORKDIR /app
 
 ENV PYTHONFAULTHANDLER=1 \
   PYTHONUNBUFFERED=1 \
@@ -18,7 +18,5 @@ ENV PYTHONFAULTHANDLER=1 \
 RUN pip install poetry
 COPY poetry.lock pyproject.toml ./
 RUN poetry install --no-root --no-interaction --no-ansi
-
-COPY . .
 
 CMD ["sh", "./deploy.sh"]
