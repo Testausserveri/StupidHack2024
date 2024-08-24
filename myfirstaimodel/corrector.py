@@ -149,6 +149,9 @@ def corrector(text):
     Take in a question string and return a corrected version of it.
     """
 
+    if text.strip() == "":
+        return ""
+
     # Split to words
     words = text.split()
 
