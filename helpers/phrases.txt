@@ -175,7 +175,6 @@ Share Finnish cultural traditions.
 Tell me about Finnish cuisine.
 Explain Finland’s education system.
 Describe Helsinki’s main attractions.
-
 Share Finland’s unique festivals.
 Tell me about Finnish saunas.
 Explain Finland’s climate characteristics.
@@ -271,4 +270,282 @@ Describe a math theorem.
 Explain prime numbers basics.
 Share a calculus application.
 Tell me about matrices.
+Describe a Christmas tradition.
+Explain your favorite decoration.
+Share a Christmas memory.
+Tell me about Santa.
+Describe a festive recipe.
+Explain Christmas tree decorating.
+Share a holiday greeting.
+Tell me about caroling.
+Describe a Christmas movie.
+Explain holiday gift ideas.
+Share a Christmas song.
+Tell me about Christmas Eve.
+Describe a holiday celebration.
+Explain Christmas morning excitement.
+Share a Christmas craft.
+Tell me about holiday shopping.
+Describe a Christmas market.
+Explain a Christmas party game.
+Share your favorite ornament.
+Tell me about holiday baking.
+Describe a beach day.
+Explain your summer plans.
+Share a summer memory.
+Tell me about sunshine.
+Describe a summer festival.
+Explain staying cool tips.
+Share a summer recipe.
+Tell me about vacations.
+Describe a summer activity.
+Explain a favorite destination.
+Share your summer playlist.
+Tell me about camping.
+Describe a summer evening.
+Explain summer fashion trends.
+Share a refreshing drink.
+Tell me about barbecues.
+Describe a summer adventure.
+Explain a summer workout.
+Share a summer tradition.
+Describe prime number properties.
+Explain a number sequence.
+Share a favorite number.
+Tell me about decimals.
+Describe number line usage.
+Explain irrational number concepts.
+Share a counting technique.
+Tell me about fractions.
+Describe number theory basics.
+Explain Roman numeral conversions.
+Share a mathematical constant.
+Tell me about exponents.
+Describe Fibonacci sequence significance.
+Explain rounding whole numbers.
+Share a multiplication trick.
+Tell me about integers.
+Describe number pattern recognition.
+Explain large number notation.
+Share a divisibility rule.
+Tell me about negative numbers.
+Describe a favorite game.
+Explain a gaming strategy.
+Share a gaming memory.
+Tell me about RPGs.
+Describe a game character.
+Explain your gaming setup.
+Share a boss battle.
+Tell me about multiplayer modes.
+Describe an open-world game.
+Explain game development basics.
+Share a gaming achievement.
+Tell me about esports.
+Describe a game’s soundtrack.
+Explain game mechanics fundamentals.
+Share a hidden game secret.
+Tell me about game graphics.
+Describe a favorite console.
+Explain virtual reality gaming.
+Share an indie game recommendation.
+Tell me about gaming trends.
+Describe a favorite board game.
+Explain a winning strategy.
+Share a game night memory.
+Tell me about Monopoly.
+Describe a cooperative board game.
+Explain board game rules.
+Share a challenging puzzle.
+Tell me about chess.
+Describe a game piece.
+Explain a classic board game.
+Share a family board game.
+Tell me about Scrabble.
+Describe a unique board game.
+Explain game setup instructions.
+Share a strategy game tip.
+Tell me about game tokens.
+Describe a game board.
+Explain game play mechanics.
+Share a competitive board game.
+Tell me about Risk.
+Describe a famous landmark.
+Explain English tea traditions.
+Share a historical event.
+Tell me about London.
+Describe an English castle.
+Explain England's royal history.
+Share a cultural tradition.
+Tell me about Stonehenge.
+Describe English countryside beauty.
+Explain England's education system.
+Share an English author.
+Tell me about football.
+Describe English cuisine favorites.
+Explain a famous battle.
+Share a popular festival.
+Tell me about Big Ben.
+Describe England's weather patterns.
+Explain the English language.
+Share an English holiday.
+Tell me about Shakespeare.
+Describe a Windows feature.
+Explain Windows update process.
+Share a useful shortcut.
+Tell me about PowerShell.
+Describe Windows file explorer.
+Explain task manager functions.
+Share a customization tip.
+Tell me about Control Panel.
+Describe Windows security settings.
+Explain Windows backup process.
+Share a troubleshooting method.
+Tell me about Windows registry.
+Describe desktop personalization options.
+Explain Windows Defender usage.
+Share a performance optimization tip.
+Tell me about File History.
+Describe Windows startup programs.
+Explain a Windows keyboard shortcut.
+Share a useful Windows app.
+Tell me about system restore.
+Describe a Linux distribution.
+Explain the Linux kernel.
+Share a terminal command.
+Tell me about Bash.
+Describe file system structure.
+Explain package management basics.
+Share a Linux shortcut.
+Tell me about permissions.
+Describe a Linux desktop environment.
+Explain open-source software importance.
+Share a useful Linux tool.
+Tell me about cron jobs.
+Describe Linux user groups.
+Explain a shell script.
+Share a Linux troubleshooting tip.
+Tell me about GRUB bootloader.
+Describe a network configuration file.
+Explain Linux security practices.
+Share a favorite Linux command.
+Tell me about system logs.
+Describe Bell Labs' history.
+Explain Bell Labs' innovations.
+Share a notable invention.
+Tell me about transistors.
+Describe Claude Shannon's contributions.
+Explain UNIX operating system.
+Share a Bell Labs discovery.
+Tell me about C programming.
+Describe Bell Labs' research.
+Explain the invention of lasers.
+Share information about Bell Labs' founders.
+Tell me about solar cells.
+Describe Bell Labs' impact.
+Explain fiber optic technology.
+Share a Bell Labs breakthrough.
+Tell me about Bell Labs' scientists.
+Describe the invention of CCD.
+Explain Bell Labs' role in communication.
+Share a notable Bell Labs project.
+Tell me about information theory.
+Describe a Marvel superhero.
+Explain Marvel's cinematic universe.
+Share a favorite character.
+Tell me about Avengers.
+Describe a Marvel storyline.
+Explain a Marvel origin story.
+Share a memorable Marvel battle.
+Tell me about X-Men.
+Describe Marvel's Infinity Stones.
+Explain Marvel's multiverse concept.
+Share a Marvel villain's plan.
+Tell me about Spider-Man.
+Describe a Marvel team-up.
+Explain a Marvel comic series.
+Share a favorite Marvel quote.
+Tell me about Iron Man.
+Describe Marvel's superpowers hierarchy.
+Explain a Marvel movie twist.
+Share a Marvel Easter egg.
+Tell me about Marvel's future.
+Describe a Tarantino film.
+Explain Tarantino’s directing style.
+Share a favorite Tarantino quote.
+Tell me about "Pulp Fiction."
+Describe Tarantino’s unique storytelling.
+Explain Tarantino’s use of violence.
+Share a memorable Tarantino scene.
+Tell me about "Kill Bill."
+Describe Tarantino’s film influences.
+Explain Tarantino’s dialogue techniques.
+Share a Tarantino film soundtrack.
+Tell me about "Inglourious Basterds."
+Describe Tarantino’s character development.
+Explain Tarantino’s non-linear narratives.
+Share a Tarantino movie twist.
+Tell me about "Django Unchained."
+Describe Tarantino’s visual aesthetics.
+Explain Tarantino’s use of music.
+Share a favorite Tarantino character.
+Tell me about "Once Upon."
+Explain high school cliques.
+Share a memorable class.
+Tell me about graduation.
+Describe a school event.
+Explain a favorite subject.
+Share a sports team.
+Tell me about high school clubs.
+Describe a school project.
+Explain high school drama.
+Share a favorite teacher.
+Tell me about prom night.
+Describe a classmate's prank.
+Explain high school challenges.
+Share a memorable field trip.
+Tell me about study habits.
+Describe a school dance.
+Explain high school traditions.
+Share a favorite assignment.
+Tell me about after-school activities.
+Describe a popular YouTuber.
+Explain a YouTuber's content.
+Share a favorite YouTube channel.
+Tell me about vlogging styles.
+Describe a viral video.
+Explain YouTube content creation.
+Share a notable collaboration.
+Tell me about a YouTube challenge.
+Describe a YouTuber's personality.
+Explain a trending YouTube topic.
+Share a YouTube channel recommendation.
+Tell me about gaming YouTubers.
+Describe a YouTube review.
+Explain YouTube monetization basics.
+Share a favorite YouTube series.
+Tell me about a YouTube skit.
+Describe a YouTube live stream.
+Explain YouTube audience engagement.
+Share a successful YouTube strategy.
+Tell me about YouTube influencers.
+Describe a favorite recipe.
+Explain basic cooking techniques.
+Share a cooking tip.
+Tell me about baking.
+Describe a signature dish.
+Explain meal prep strategies.
+Share a cooking challenge.
+Tell me about flavor pairing.
+Describe a kitchen gadget.
+Explain how to sauté.
+Share a spice recommendation.
+Tell me about grilling tips.
+Describe a homemade sauce.
+Explain essential cooking skills.
+Share a quick recipe.
+Tell me about food plating.
+Describe a traditional cuisine.
+Explain a cooking technique.
+Share a dessert idea.
+Tell me about ingredient substitutions.
 
