@@ -1,3 +1,5 @@
+import csv
+
 PHRASES = {}
 WORD_TREES = {}
 
@@ -59,8 +61,10 @@ def initialize():
     """
 
     # Load the phrases
-    with open('/app/helpers/phrases.txt') as f:
-        for line in f:
+    with open('/app/ai_out.csv') as f:
+        reader = csv.reader(f)
+        for row in reader:
+            line = row[0]
             phrase = line.strip()
             lower = phrase.lower()
             PHRASES[lower] = phrase
@@ -77,6 +81,8 @@ def initialize():
                 lower_prefix += ' '
 
             recurse_word(lower, WORD_TREES)
+
+    print('Loaded phrases:', len(PHRASES))
 
 
 def levenshtein_distance(s1, s2):
