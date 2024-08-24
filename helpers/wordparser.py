@@ -42,7 +42,7 @@ def output():
         for phrase in phrases:
             for i,word in enumerate(phrase[0].split()):
                 f.write(" "*4*(i+1) + f"if input[{i}] == '{word}':\n")
-            f.write(" "*4*(len(phrase[0].split())+1) + f"return '{phrase[1]}'\n")
+            f.write(" "*4*(len(phrase[0].split())+1) + f"return '''{phrase[1]}'''\n")
 
 
 if __name__=="__main__":
