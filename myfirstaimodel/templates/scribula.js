@@ -18,7 +18,7 @@ async function correct() {
     // Send the request
     try {
         const data = new FormData();
-        data.append('word', promptsu.value);
+        data.append('input', promptsu.value);
         promptsu.value = await fetch(`${API_BASE}/correct`, {
             method: 'POST',
             body: data
@@ -34,7 +34,7 @@ function isQuestionReady() {
     /*
     Returns true if the user has entered a question
      */
-    return promptsu.value.slice(-1) === '.';
+    return  ['.', '?', '!'].includes(promptsu.value.slice(-1));
 }
 
 // Attach to events
@@ -43,11 +43,12 @@ promptsu.addEventListener('input', async (ev) => {
     if (ev.data && ev.data.slice(-1) === ' ') {
         await correct();
 
-        if (promptsu.value.slice(-1) !== '.') {
+        if (!['.', '?', '!'].includes(promptsu.value.slice(-1))) {
             promptsu.value += ' ';
         }
     }
 });
+
 promptsu.addEventListener('change', correct);
 
 // Initial value

@@ -6,7 +6,7 @@ from myfirstaimodel.corrector import corrector
 
 from . import backend
 
-bp = Blueprint("endpoints", __name__, url_prefix="/", template_folder="templates")
+bp = Blueprint("endpoints", __name__, url_prefix="/", template_folder="templates", static_folder="templates")
 
 
 @bp.route("/", methods=("GET",))
@@ -16,14 +16,14 @@ def index():
 
 @bp.route("/scribula.js", methods=("GET",))
 def scribula():
-    return render_template("scribula.js"), 200
+    return bp.send_static_file("scribula.js")
 
 
 @bp.route("/correct", methods=("POST",))
 def correct():
-    word = request.form.get("word")
+    input = request.form.get("input")
 
-    return corrector(word), 200
+    return corrector(input), 200
 
 
 @bp.route("/submit", methods=("POST",))
