@@ -64,6 +64,18 @@ def initialize():
             phrase = line.strip()
             lower = phrase.lower()
             PHRASES[lower] = phrase
+
+            # Also add partial phrases
+            prefix = ''
+            lower_prefix = ''
+            for partial, lower_partial in zip(phrase.split(), lower.split()):
+                prefix += partial
+                lower_prefix += lower_partial
+                PHRASES[lower_prefix] = prefix
+
+                prefix += ' '
+                lower_prefix += ' '
+
             recurse_word(lower, WORD_TREES)
 
 
@@ -105,7 +117,9 @@ def matcher(prefix, word, next, tree):
     tree is the current tree to traverse
     """
 
-    if not tree or not next:
+    print('Matcher:', prefix, word, next, list(tree.keys()))
+
+    if not tree or not word:
         return prefix
     
     next_word, _, next_next = next.partition(" ")
@@ -139,11 +153,13 @@ def corrector(text):
     # Check for word by word match
     tree = WORD_TREES
     prefix = []
-    next = text.lower()
-    corrected = matcher(prefix, words[0], next, tree)
+    current, _, next = text.lower().partition(" ")
+    corrected = matcher(prefix, current, next, tree)
 
-    return " ".join(corrected)
+    return PHRASES[" ".join(corrected)]
 
 
-
-initialize()
+# Ensure the corrector DB is initialized when module code loads
+if not PHRASES:
+    initialize()
+    #print('Phrases:', PHRASES)
