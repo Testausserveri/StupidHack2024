@@ -2,7 +2,7 @@ from flask import (
     Blueprint, request, render_template
 )
 
-from myfirstaimodel.corrector import corrector
+from myfirstaimodel.corrector import corrector, ensure_valid
 
 from . import backend
 
@@ -21,14 +21,16 @@ def scribula():
 
 @bp.route("/correct", methods=("POST",))
 def correct():
-    input = request.form.get("input")
+    input = request.form.get("input").strip()
 
     return corrector(input), 200
 
 
 @bp.route("/submit", methods=("POST",))
 def submit():
-    input = request.form.get("input").split() + [""]*10
+    input = request.form.get("input").strip()
 
-    response = backend.aimodel(input)
-    return response, 200
+    valid = ensure_valid(input)
+
+    response = backend.aimodel(valid.split(" ") + [""] * 10)
+    return [valid, response], 200

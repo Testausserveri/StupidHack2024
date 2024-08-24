@@ -53,3 +53,19 @@ promptsu.addEventListener('change', correct);
 
 // Initial value
 promptsu.value = '';
+
+document.getElementById('user-input').addEventListener('submit', async (ev) => {
+    ev.preventDefault();
+    await correct();
+    const body = new FormData();
+    body.append('input', promptsu.value);
+    const resp = await fetch('/submit', {
+        method: 'POST',
+        body: body
+    }).then(d => d.json());
+
+    console.log(resp)
+    document.querySelector('.right-bubble').innerText = resp[0];
+    document.querySelector('.left-bubble').innerText = resp[1];
+
+});

@@ -1,4 +1,5 @@
 import csv
+import random
 
 PHRASES = {}
 WORD_TREES = {}
@@ -111,6 +112,32 @@ def levenshtein_distance(s1, s2):
         previous_row = current_row
 
     return previous_row[-1]
+
+
+def ensure_valid(text):
+    """
+    Takes in text and if it is already valid, returns it.
+    Otherwise, fills in random words from tree to make it valid.
+    """
+
+    if text[-1] in ['.', '?', '!']:
+        return text
+    
+    words = text.split()
+    current_tree = WORD_TREES
+    parts = []
+
+    while True:
+        if words:
+            word = words.pop(0)
+        else:
+            word = random.choice(list(current_tree.keys()))
+
+        parts.append(word)
+        current_tree = current_tree[word]
+
+        if not current_tree:
+            return " ".join(parts)
 
 
 def matcher(prefix, word, next, tree):
