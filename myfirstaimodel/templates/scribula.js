@@ -30,6 +30,13 @@ async function correct() {
     correctionRunning = false;
 }
 
+function isQuestionReady() {
+    /*
+    Returns true if the user has entered a question
+     */
+    return promptsu.value.slice(-1) === '.';
+}
+
 // Attach to events
 promptsu.addEventListener('input', async (ev) => {
     // Check for space key
