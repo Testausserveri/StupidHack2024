@@ -120,24 +120,25 @@ def ensure_valid(text):
     Otherwise, fills in random words from tree to make it valid.
     """
 
-    if text[-1] in ['.', '?', '!']:
+    if len(text) > 0 and text[-1] in ['.', '?', '!']:
         return text
     
-    words = text.split()
+    words = text.lower().split()
     current_tree = WORD_TREES
     parts = []
 
     while True:
-        if words:
+        if words and words[0] in current_tree:
             word = words.pop(0)
         else:
             word = random.choice(list(current_tree.keys()))
 
         parts.append(word)
+
         current_tree = current_tree[word]
 
         if not current_tree:
-            return " ".join(parts)
+            return PHRASES[" ".join(parts)]
 
 
 def matcher(prefix, word, next, tree):
