@@ -63,12 +63,6 @@ def output():
 
     with open("myfirstaimodel/backend.py", "w") as f:
         f.write("def aimodel(input):\n")
-<<<<<<< HEAD
-        for phrase in phrases:
-            for i,word in enumerate(phrase[0].split()):
-                f.write(" "*4*(i+1) + f"if input[{i}] == '{word}':\n")
-            f.write(" "*4*(len(phrase[0].split())+1) + f"return '''{phrase[1]}'''\n")
-=======
         write_if(f, 1, tree)
 
 
@@ -76,7 +70,6 @@ def output():
         #     for i,word in enumerate(phrase[0].split()):
         #         f.write(" "*4*(i+1) + f"if input[{i}] == '{word}':\n")
         #     f.write(" "*4*(len(phrase[0].split())+1) + f"return '{phrase[1]}'\n")
->>>>>>> 7c51e05 (Small changes to JS logic and wordparser)
 
 
 if __name__=="__main__":
