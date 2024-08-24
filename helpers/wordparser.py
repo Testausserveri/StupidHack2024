@@ -44,11 +44,11 @@ def main():
 
 def write_if(file, current_indentation, tree):
     for word, answer in tree.items():
-        file.write(" "*4*current_indentation + f"if input[{current_indentation}] == '{word}':\n")
+        file.write(" "*4*current_indentation + f"if input[{current_indentation}] == {repr(word)}:\n")
         if isinstance(answer, dict):
             write_if(file, current_indentation+1, answer)
         else:
-            file.write(" "*4*(current_indentation+1) + f"return '''{repr(answer)}'''\n")
+            file.write(" "*4*(current_indentation+1) + f"return {repr(answer)}\n")
 
 
 
